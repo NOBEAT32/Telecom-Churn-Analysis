@@ -12,7 +12,9 @@ Key findings:
 - Competitor switching is the #1 churn category (218 cases)
 - Jammu & Kashmir has the highest state-level churn rate (57%)
 - ₹1.6M+ in revenue sits with customers flagged as high churn-risk
-
+- our model predict that from Stayed Customer that 240 customer has churn rate percentage more than 60%.
+- XG Boost Model achieves 77% recall for churned customers, allowing it to identify the majority of customers at risk of churn, while achieving 66% precision.
+- Churned customer paying more every month than stayed Customer
 The goal wasn't just to visualize churn — it was to build something a retention team could actually act on: who's at risk, why, and how much revenue is on the line.
 
 Tools: Power BI, Python (pandas, scikit-learn, XGBoost), SQL
