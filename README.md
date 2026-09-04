@@ -2,7 +2,7 @@
 
 End-to-end churn analytics project: SQL/Python EDA → ML churn prediction → Power BI dashboards, built on a 6,400+ row telecom customer dataset. Goal: not just visualize churn, but build something a retention team could actually act on — who's at risk, why, and how much revenue is on the line.
 
-## 📊 Dashboards
+##  Dashboards
 
 ### Summary Dashboard
 <img width="1163" height="652" alt="image" src="https://github.com/user-attachments/assets/8bb5cc0c-1d1d-4b84-a441-0318f0fcd985" />
@@ -41,12 +41,12 @@ Framed against real retention strategies in the Indian telecom market (Airtel, J
 | J&K, Assam, Jharkhand top churn-by-state | Retention is a resource-allocation problem, not one national policy | Regional triage — states above a churn threshold get proactive outreach + service-quality audits |
 | Churned customers pay more on average | — | High-paying customers churning signals a value/perception gap, not a price problem — prioritize service quality checks for this segment before offering discounts |
 
-## 🛠️ Tools & Tech
+##  Tools & Tech
 - **SQL** — data quality checks, churn-rate segmentation queries
 - **Python** — pandas, seaborn/matplotlib, scikit-learn, XGBoost
 - **Power BI** — dashboard design, DAX measures, custom Airtel theme
 
-## 📁 Repo Structure
+##  Repo Structure
 ```
 ├── notebooks/
 │   ├── churn_analysis_fixed.ipynb      # EDA: cleaning, univariate/bivariate, chi-square, revenue impact
